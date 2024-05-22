@@ -2,9 +2,17 @@
 
 **불리언 타입**
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/73cd62e8-db8d-4181-b090-9c7257038236/0ffda10c-981e-474f-9a6d-dbc32abe5005/Untitled.png)
+```
+var foo = true;
+console.log(foo);
+//true
+```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/73cd62e8-db8d-4181-b090-9c7257038236/cb2ec0c3-64b8-4c4d-abf5-5ba2c2ba744d/Untitled.png)
+```
+foo = false;
+console,log(foo);
+false
+```
 
 불리언 타입의 값은 참과 거짓으로 구분되는 조건의 의해 
 
@@ -67,9 +75,9 @@ null은 변수에 값이 없다는 것을 의도적으로 명시 할떄 사용�
 메모리 값을 저장 하려고 하면 먼저 확보해야 할 메모리의 공간의 크기를 지정해야 한다
 
 즉 몇 바이트의 메모리 공간을 사용해야 낭비와 손실 없이 값을 지정 할 수 있는지 알아야 한다.
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/73cd62e8-db8d-4181-b090-9c7257038236/884cc96a-38e2-42d0-98ff-d2394090434c/Untitled.png)
-
+```
+var score = 200;
+```
 숫자 값 200을 지정하기 위해 메모리 공간을 확보한 다음 확보된 메모리에 숫자 값 200을 2진수로 저장한다.
 
 숫자 값을 저장 할 때 확보해야 할 메모리 공간의 크기를 알아야 한다
